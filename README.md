@@ -22,3 +22,51 @@ Twitter_Sentiment_Analysis/
 ├── requirements.txt # Python dependencies
 └── README.md # This file
 
+## 📦 requirements.txt
+
+streamlit
+numpy
+
+---
+
+## 🔧 Run Locally
+
+```bash
+git clone https://github.com/mohann1234/Twitter_Sentiment_Analysis.git
+cd Twitter_Sentiment_Analysis
+pip install -r requirements.txt
+streamlit run app.py
+
+📊 Example Prediction
+Input Tweet:
+I love this phone! Great battery life.
+
+Output:
+😊 Positive (Confidence: 0.93)
+
+Input Tweet:
+The product stopped working after one day.
+
+Output:
+😞 Negative (Confidence: 0.88)
+
+🚀 Future Enhancements
+Add neutral sentiment category
+
+Use TF-IDF or Word2Vec instead of BOW
+
+Improve UI with charts or word clouds
+
+Support batch tweet predictions
+
+Add model training from UI
+
+🛠 Tech Stack
+Python
+
+NumPy
+
+Streamlit
+
+Pickle
+
